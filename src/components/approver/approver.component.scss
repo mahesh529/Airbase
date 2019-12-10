@@ -1,0 +1,83 @@
+.aprrovers{
+    #approver-cont{
+        box-shadow: 0 -1px 0 rgba(34, 34, 34, 0.05), 0 1px 0 rgba(34, 34, 34, 0.05);
+        padding-bottom: 34px;
+    }
+    .hr{
+        margin-top:14px;
+    }
+    .profile_pic{
+        width: 24px;
+        height: 24px;
+        vertical-align: top;
+        margin: 0 8px;
+    }
+    .cont-elipse{
+        width:calc(100% - 85px);
+    }
+    .number{
+        text-align: center;
+        background: #cabcbc;
+        border-radius: 50%;
+        padding: 0.5px 4.23px;
+        line-height: 24px;
+    }
+    .circle{
+        align-self: center;
+        margin-left: auto;
+        span{
+            width: 20px;
+            display: inline-block;
+            height: 20px;
+            border-radius: 10px;
+            border: 1px solid rgba(34, 34, 34, 0.1);
+            background-color: #ffffff;
+        }
+    }
+    .approved {
+        >div:first-of-type{
+            padding: 16px 0;
+            +div{
+                display: flex;
+            }
+        }
+        .title-cont{
+            text-align: left;
+            line-height: 1;
+            margin-bottom: 3px;
+        }
+        .number{
+            font-family: "Maison Neue Bold";
+            font-weight: 700;
+            width: 16px;
+            height: 15px;
+        }
+    }
+    .pending{
+        >div:first-of-type{
+            padding: 16px 0;
+            +div{
+                display: flex;
+            }
+        }
+        .title-cont{
+            text-align: left;
+            line-height: 1;
+            margin-bottom: 3px;
+        }
+        .number{
+            width: 16px;
+            height: 14px;
+        }
+    }
+}
+
+/*Desktop*/
+@media only screen  and (min-width:780px){
+    .aprrovers{
+        #approver-cont{
+            box-shadow: none;
+            padding: 0 16px;
+        }
+    }
+}

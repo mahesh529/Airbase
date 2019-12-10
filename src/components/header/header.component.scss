@@ -1,0 +1,43 @@
+/*Mobile first design*/
+#header.mobile-container{
+    margin-bottom: 25px;
+    >img{
+        margin: 28px 0;
+        width: 96px;
+        height:24px;
+        vertical-align: middle;
+    }  
+    #sec_msg_cont{
+        #sec_msg{
+        color: #ffa03d;
+        padding: 16px 0 8px 0;
+            +.small-font{
+                color: rgba(34, 34, 34, 0.5);
+                line-height: 16px;
+            }
+        }
+        img{
+            width: 9px;
+            height: 12px;
+            vertical-align: inherit;
+            margin-right: 4px;
+        }
+       
+    }
+}
+/*Desktop*/
+@media only screen  and (min-width:780px){
+ #header.desk-container{
+     margin-bottom: 14px;
+     .hr{
+         display: none;
+     }
+    #sec_msg{
+        display: inline;
+        margin-right: 8px;
+        +.small-font{
+            display: inline;
+        }
+    }
+ }
+}
