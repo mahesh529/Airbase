@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/airbase/static/css/main.45177a50.chunk.css",
+    "main.js": "/airbase/static/js/main.227ce45e.chunk.js",
+    "main.js.map": "/airbase/static/js/main.227ce45e.chunk.js.map",
+    "runtime-main.js": "/airbase/static/js/runtime-main.c307bb6d.js",
+    "runtime-main.js.map": "/airbase/static/js/runtime-main.c307bb6d.js.map",
+    "static/js/2.bba7b4b9.chunk.js": "/airbase/static/js/2.bba7b4b9.chunk.js",
+    "static/js/2.bba7b4b9.chunk.js.map": "/airbase/static/js/2.bba7b4b9.chunk.js.map",
+    "index.html": "/airbase/index.html",
+    "precache-manifest.95e2fe58b57aceee75f9a0bf26c7dde7.js": "/airbase/precache-manifest.95e2fe58b57aceee75f9a0bf26c7dde7.js",
+    "service-worker.js": "/airbase/service-worker.js",
+    "static/css/main.45177a50.chunk.css.map": "/airbase/static/css/main.45177a50.chunk.css.map",
+    "static/js/2.bba7b4b9.chunk.js.LICENSE": "/airbase/static/js/2.bba7b4b9.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c307bb6d.js",
+    "static/js/2.bba7b4b9.chunk.js",
+    "static/css/main.45177a50.chunk.css",
+    "static/js/main.227ce45e.chunk.js"
+  ]
+}
